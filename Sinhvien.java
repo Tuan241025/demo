@@ -2,12 +2,14 @@ package truonghocvanlang;
 
 import java.util.Scanner;
 
-public abstract class Sinhvien {
+public abstract  class Sinhvien { //abstract cho phep hoi tạo nhung khong cho phep new mot cai moi
 	public String MSv;
 	public String name;
 	public String Address;
 	public int Sumtinchi;
 	public double DiemTB;
+	
+	//khai bao constructor mac dinh(hong c datatype,ko co return)
 	public Sinhvien() {
 	
 	}
@@ -72,5 +74,5 @@ public abstract class Sinhvien {
 		System.out.println("Diem Trung Binh la: "+DiemTB);
 	}
 	
-	public abstract String XetTotNghiep();
+	public abstract boolean XetTotNghiep();
 }

@@ -37,15 +37,23 @@ public class SVDH extends Sinhvien {
 		super.Xuat();
 		System.out.println("Ten luan van la: "+TenLuanVan);
 		System.out.println("Dem luan van la: "+DiemLV);
-		System.out.println("Ket qua: "+XetTotNghiep());
+		
 	}
 	@Override
-	public String XetTotNghiep() {
-		if(Sumtinchi>=170&DiemTB >= 5 || DiemLV >= 5) {
-			return "Dau";
+	public boolean XetTotNghiep() {
+//		if(Sumtinchi>=170&DiemTB >= 5 || DiemLV >= 5) {
+//			return "Dau";
+//		}
+//		else
+//			return "Rot";
+		return this.Sumtinchi >= 145 && this.DiemTB >= 5 && this.DiemLV >= 5;
+	}
+	public void CheckTotnghiep() {
+		if(XetTotNghiep())  {
+			System.out.println("Dau tot nghiep"); 
 		}
 		else
-			return "Rot";
+			System.out.println("Rot tot nghiep");
 		// TODO Auto-generated method stub
 		
 	}

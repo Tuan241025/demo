@@ -34,12 +34,20 @@ public class SVCD extends Sinhvien {
 	}
 
 	@Override
-	public String XetTotNghiep() {
-		if(Sumtinchi >=120&DiemTB >= 5 & Diemthitotnghiep >= 5) {
-			return "Dau";
+	public boolean XetTotNghiep() {
+		return this.Sumtinchi >= 120 && this.DiemTB >= 5 && this.Diemthitotnghiep >= 5;
+	}
+	public void CheckTotnghiep() {
+		if(this.XetTotNghiep()) {
+			System.out.println("Dau tot nghiep");
 		}
 		else
-			return "Rot";
+			System.out.println("Rot tot nghiep");
+//		if(Sumtinchi >=120&DiemTB >= 5 & Diemthitotnghiep >= 5) {
+//			return "Dau";
+//		}
+//		else
+//			return "Rot";
 		// TODO Auto-generated method stub
 		
 	}
