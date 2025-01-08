@@ -1,0 +1,65 @@
+/* Kiểu cho các liên kết bên trong các mục danh sách */
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* Hiệu ứng khi di chuột qua các liên kết */
+li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Kiểu cho liên kết đang hoạt động */
+.active {
+    background-color: black;
+    color: white;
+}
+
+/* Kiểu cho nội dung căn giữa */
+.NoiDung1 {
+    text-align: center;
+}
+
+/* Kiểu cho đoạn văn bình thường */
+.MsoNormal {
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 150%;
+
+}
+
+/* Kiểu cho danh sách không có dạng đánh số */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: red;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+/* Kiểu cho các phần tử div */
+div {
+    margin-left: 30%;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color: black;
+    line-height: 150%;
+
+}
+
+div strong {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color: red;
+    line-height: 150%;
+    text-align: center;
+}

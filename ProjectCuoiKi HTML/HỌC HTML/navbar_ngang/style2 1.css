@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+ul li a:hover {
+    background-color: #000000;
+}
+
+.chitietbaiviet {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.chitietbaiviet img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.MsoNormal {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 150%;
+    color: #4f81bd;
+    text-align: justify;
+}
+
+
+
+.NoiDung1 {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+    color: #595959;
+}
